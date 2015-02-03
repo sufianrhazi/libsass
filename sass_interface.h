@@ -41,6 +41,8 @@ struct sass_options {
   const char* linefeed;
   // Precision for outputting fractional numbers
   int precision;
+  // C importer
+  Sass_C_Import_Callback importer;
 };
 
 struct sass_context {
